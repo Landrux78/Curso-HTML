@@ -7,10 +7,62 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Kayaks</th>
+                <th>Seguridad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Modelos</td>
+                <td>Accesorios</td>
+            </tr>
+            <tr>
+                <td>Protección uv</td>
+                <td>19,90</td>
+            </tr>
+            <tr>
+                <td>Ropa portección uv</td>
+                <td>69,90</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- ul es lista no ordenada -->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+    <!-- ol es lista ordenada -->
+    <ol>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ol>
+
+
+    <form action="/formulario" method="POST">
         <label for="nombre">Nombre</label>
-        <input id="nombre" name="nombre" placeholder="Nombre" type="text"/>
+        <input value="valor por defecto" type="text" id="nombre" name="nombre" placeholder="Nombre" type="text"/>
+        <br>
+        <label for="apellido">Apellido</label>
+        <input value="valor por defecto" type="text" id="apellido" name="apellido" placeholder="Apellido" type="text"/>
+        <br>
+        <label for="comentario">Comentario</label>
+        <textarea  cols="50" rows="10" id="comentario" placeholder="Ingrese aquí su comentario..." name="comentario">valor por defecto</textarea>
+        <br>
+        <button type="button">tipo botón</button>
+        <button type="reset">tipo reset</button>
+        <button type="submit">tipo submit</button>
+
     </form>
+
 
     <h1>Hola este es el curso de HTML!!!!</h1>
     <h2>Hola este es el curso de HTML!!!!</h2>

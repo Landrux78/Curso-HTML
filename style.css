@@ -1,3 +1,12 @@
 span {
     color: rgb(200, 13, 214);
 }
+
+table {
+    border: 1px solid black;
+    width: 400px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
